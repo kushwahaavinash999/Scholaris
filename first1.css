@@ -1,0 +1,1100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header .img{
+    height: 17vh;
+}
+header .img .one{
+    width: 7vw;
+    margin-left: 14vw;
+}
+
+header .img .two{
+    width: 18 vw;
+    margin-bottom: 3vh;
+    margin-left: 3vw;
+}
+
+header .animi{
+    height: 30px;
+    display: flex;
+    background-color:#79DC7D;
+    cursor: pointer;
+}
+
+
+header .animi p{
+    margin-top: 4px;
+    width: 100%;
+    text-align: center;
+}
+/* navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #703564;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+  }
+  #home{
+    margin-left: 150px;
+  }
+  .list{
+    margin-top: 15px;
+  }
+  .navbar .dropdown a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 8px 1px;
+    text-decoration: none;
+  }
+
+  .navbar #home  {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 12px;
+    background-color: inherit;
+    font: inherit;
+    margin-left: 130px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background:slateblue; 
+    background-blend-mode:multiply; 
+    
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header{
+    background:skyblue;
+    padding: 8px;
+    color: #000080;
+    height: 25px;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 15.20%;
+    padding: 10px;
+    background-color:#f9f5f565;
+   
+    height: 40vh;
+    
+  }
+  
+  .column a{
+    float: none;
+    color: #eef0f7;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    
+  }
+  
+  .column a:hover {
+    color: #703564;
+    background: skyblue;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Search bar */
+  .search{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: white;
+    border: 2px solid black ;
+    right: 150px;
+    border-radius: 5px;
+    padding-right: 5px;
+    height: 30px;
+}
+.search input{
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: white;
+    color: black;
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+   
+}
+
+
+.search svg{
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+     
+}
+
+.search .search_bx2 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid #fff; */
+    top: 35px;
+    left: -45px;
+    background: white;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: .3s linear;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: 5px;
+    scroll-margin-right: 2px;
+
+}
+
+.search .search_bx2:active{
+z-index:1;
+}
+
+.search .search_bx2::-webkit-scrollbar {
+    width: 7px;
+    background: rgb(184, 184, 184, .3);
+    border-radius: 20px;
+}
+
+.search .search_bx2::-webkit-scrollbar-thumb {
+    background: rgb(184, 184, 184, .7);
+    border-radius: 20px;
+}
+
+.search .search_bx2 a {
+    text-decoration: none;
+    color:black;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #fff; */
+    /* display: flex;
+    align-items: center; */
+    transition: .3s linear;
+    
+}
+
+.search .search_bx2 a .content2 {
+    color: black;
+    width: 100%;
+    height: auto;
+    padding: 10px  0px;
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    background-color: white;
+}
+
+.search .search_bx2 a .content2:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #f0f0f0;
+
+}
+.search .search_bx2 a .content2 h6 {
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    
+}
+
+    
+
+/********************************************************************/
+.item-link{
+    margin-right: 50px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+/*****************************************************/
+main{
+    background-color: rgb(242, 251, 255);
+    padding-bottom: 7vh ;
+}
+
+/************************************************************************************/
+/*******CSS for banner****************************/
+
+
+.mySlides {
+    display: none;
+}
+.slideshow-container{
+    background-color: #f2f2f2;   
+}
+.slideshow-container .mySlides img {
+    vertical-align: middle;
+    height: 45vh;
+    width: 100%;
+
+
+}
+
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+  max-height: fit-content;
+  
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: rgb(180, 179, 179);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #703564;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+
+ /*********************************************************************************************/
+/***********************************Tag line css *********************/
+main .tagbox{
+    width: 100%;
+    height: 10vh;
+    background-color: #999999;
+    margin-top: 2vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .tagbox .tagline {
+  font-size: 5vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+main .tagbox .tagline {
+    animation: blink 0.5s infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: blink;
+}
+
+@keyframes blink {
+ 0%{
+    color: #0093c5;
+ }    
+ 50%{
+    color: #f70808;
+     
+ }
+ 100%{
+    color: #0cd512;
+     
+ }
+}
+
+
+
+
+/*******************************************************************************************/
+main .heading1{
+    padding-top: 5vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+main .heading1 a #view{
+   border: 3px solid black;
+    border-radius: 5px;
+    width: 7vw;
+    height: 4vh;
+}
+main .heading1 a #view:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main .heading1 .filter-view{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+main .container1{
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+main .container1 .box1{
+    width: 14vw;
+    height:35vh ;
+    background-color:white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+main .container1 .box2{
+    width: 14vw;
+    height:35vh ;
+    background-color:white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+main .container1 .box3{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+main .container1 .box4{
+
+    width: 14vw;
+    height:35vh ;
+    background-color:white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+main .container1 .box5{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+main .container1 .box6{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+main .container1 .box7{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+main .container1 .box1 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+  
+}
+main .container1 .box1 .country{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+ 
+}
+main .container1 .box2 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+   
+}
+main .container1 .box2 .country{
+
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container1 .box3 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+
+}
+main .container1 .box3 .country{
+
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container1 .box4 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+}
+main .container1 .box4 .country{
+
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container1 .box5 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+}
+main .container1 .box5 .country{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container1 .box6 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+  
+}
+main .container1 .box6 .country{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container1 .box7 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+  
+}
+main .container1 .box7 .country{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container1 .box1 .icon img{
+    width: 12vw;
+}
+main .container1 .box2 .icon img{
+    width: 12vw;
+}
+main .container1 .box3 .icon img{
+    width: 12vw;
+}
+main .container1 .box4 .icon img{
+    width: 12vw;
+}
+main .container1 .box5 .icon img{
+    width: 12vw;
+}
+main .container1 .box6 .icon img{
+    width: 12vw;
+}
+    main .container1 .box7 .icon img{
+        width: 12vw;
+}
+
+/* main .container1.country.a {
+    color: black;
+    text-decoration: none;
+} */
+
+/*National*/
+
+main .container2 a .state{
+    color: black;
+    text-decoration: none;
+}
+
+
+main .container2{
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+main .container2 .box1{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+main .container2 .box2{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+main .container2 .box3{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+main .container2 .box4{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+main .container2 .box5{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main .container2 .box6{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+main .container2 .box7{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .container2 .box1 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+    
+}
+main .container2 .box1 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+ 
+}
+main .container2 .box2 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+    
+}
+main .container2 .box2 .state{
+ 
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container2 .box3 .icon{
+    width: 12vw;
+    height: 25vh;
+    
+    margin:1.5vh;
+
+}
+main .container2 .box3 .state{
+ 
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container2 .box4 .icon{
+    width: 12vw;
+    height: 25vh;
+    
+    margin:1.5vh;
+}
+main .container2 .box4 .state{
+ 
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container2 .box5 .icon{
+    width: 12vw;
+    height: 25vh;
+    
+    margin:1.5vh;
+}
+main .container2 .box5 .state{
+ 
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container2 .box6 .icon{
+    width: 12vw;
+    height: 25vh;
+    
+    margin:1.5vh;
+}
+main .container2 .box6 .state{
+ 
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container2 .box7 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+    
+}
+main .container2 .box7 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+
+}
+main .container2 .box1 .icon img{
+    width: 12vw;
+}
+
+main .container2 .box2 .icon img{
+    width: 12vw;
+    
+}
+
+main .container2 .box3 .icon img{
+    width: 12vw;
+    margin-top: 5vh;
+}
+
+main .container2 .box4 .icon img{
+    width: 12vw;
+}
+
+main .container2 .box5 .icon img{
+    width: 12vw;
+}
+
+main .container2 .box6 .icon img{
+    width: 12vw;
+}
+main .container2 .box7 .icon img{
+    width: 7vw;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+}
+
+
+/*****************************************/
+
+
+
+
+
+/*Exclusive*/
+
+main .container3 a .state{
+    color: black;
+    text-decoration: none;
+}
+
+main .container3{
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+main .container3 .box1{
+    width: 14vw;
+    height:35vh ;
+    background-color:white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+}
+main .container3 .box2{
+    width: 14vw;
+    height:35vh ;
+    background-color:white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+main .container3 .box3{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+main .container3 .box4{
+
+    width: 14vw;
+    height:35vh ;
+    background-color:white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+main .container3 .box5{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+main .container3 .box6{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+main .container3 .box7{
+    width: 14vw;
+    height:35vh ;
+    background-color: white;
+    margin: 2vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+main .container3 .box1 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+  
+}
+main .container3 .box1 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+ 
+ 
+}
+main .container3 .box2 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+   
+}
+main .container3 .box2 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container3 .box3 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+
+}
+main .container3 .box3 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container3 .box4 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+}
+main .container3 .box4 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+
+main .container3 .box5 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+}
+main .container3 .box5 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container3 .box6 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+  
+}
+main .container3 .box6 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container3 .box7 .icon{
+    width: 12vw;
+    height: 25vh;
+    margin:1.5vh;
+  
+}
+main .container3 .box7 .state{
+ width: 12vw;
+ height: 5vh;
+ margin:1.5vh;
+ display: flex;
+ justify-content: center;
+}
+main .container3 .box1 .icon img{
+    width: 12vw;
+}
+main .container3 .box2 .icon img{
+    width: 12vw;
+}
+main .container3 .box3 .icon img{
+    width: 12vw;
+}
+main .container3 .box4 .icon img{
+    width: 12vw;
+}
+main .container3 .box5 .icon img{
+    width: 12vw;
+}
+main .container3 .box6 .icon img{
+    width: 12vw;
+}
+main .container3 .box7 .icon img{
+    width: 12vw;
+}
+
+
+
+
+
+/**********************************Footer CSS*************************/
+
+
+
+footer .foot_content{
+    height: 10vh;
+    background-color: #703564;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type:none ;
+    padding: 10px;
+    
+    
+}
+
+footer .foot_content a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer .social_media_logo{height: 5vh;
+    background-color: #703564;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+
+}
+
+
+footer .social_media_logo a{
+    color: white;
+    margin: 0 0.5vw;
+    align-items: flex-end;
+}
+
+footer .reservemark{
+    height: 4vh;
+    background-color:#703564 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid rgb(242, 251, 255);
+    
+}
+

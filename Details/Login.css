@@ -1,0 +1,141 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] ,input[type=email],input[type=int]{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.loginbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color: green;
+}
+
+#signinbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color:#79DC7D;
+}
+
+
+#signinbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color:#703564;
+}
+
+
+
+.signupbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color: green;
+}
+
+.cancelbtn{
+  color: #535151;
+margin-right: 5px;
+}
+.forgetbtn{
+  color: #535151;
+  margin-left: 5px;
+
+ }
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Modal Content/Box */
+.modal-content1{
+  /* display: flex; */
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+.login-form{
+  width: 100%;
+}
+#signup-form{
+  display: none;
+  background-color: #703564;
+}
+#signin-form{
+  display: block;
+  background-color:#79DC7D;
+}
+
+/* The Close Button (x) */
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.close1:hover,
+.close1:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

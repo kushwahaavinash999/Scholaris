@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scholaris</title>
+    <link rel="stylesheet" href="view2.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="img">
+            <img src="../logo.jpg" alt="" class="one">
+            <img src="../Scholaris.png" alt="" class="two">
+        </div>
+        <div class="animi">
+            <marquee behavior="scroll" direction="left" onmousemove="this.stop();" onmouseout="this.start();">
+                Latest schlorship highlights &diams;International 
+          &diams; Exclusive &diams; Block are work in progress.
+            </marquee>
+
+        </div> 
+       <!-- <div class="nav">
+            <ul>
+                <a href="../first1.html" class="link">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="link">International</a>
+                    <div class="dropdown-content">
+                        <div class="card" style="width: 40rem; height: 20rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="link">National</a>
+                    <div class="dropdown-content">
+                        <div class="card" style="width: 40rem; height: 20rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="link">Exclusive</a>
+                    <div class="dropdown-content">
+                        <div class="card" style="width: 40rem; height: 20rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="srch">
+                    <input type="text" placeholder="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </div>
+            </ul>
+
+        </div> -->
+
+        <div class="navbar">
+            <div class="list">
+              <a href="../first1.html" id="home">Home</a>
+      
+              <div class="dropdown">
+                <button class="dropbtn">
+                  National
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <div class="header">
+                    <h2>Quick Access</h2>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <h3>STATES</h3>
+                      <a href="/national/andrapradesh.html" class="quick-list">Andhra Pradesh</a>
+                      <a href="/national/arunachalpradesh.html">Arunachal Pradesh</a>
+                      <a href="/national/Assam.html">Assam</a>
+                      <a href="/national/bihar.html">Bihar</a>
+                      <a href="/national/chhattisgarh.html">Chhattisgarh</a>
+                      <a href="/national/goa.html">Goa</a>
+                      <a href="/national/gujrat.html">Gujarat</a>
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="/national/haryana.html">Haryana</a>
+                      <a href="/national/himanchal.html">Himachal-Pradesh</a>
+                      <a href="/national/jharkhand.html">Jharkhand</a>
+                      <a href="/national/karnataka.html">Karnataka</a>
+                      <a href="/national/kerela.html">Kerala</a>
+                      <a href="/national/madhyapradesh.html">Madhya-Pradesh</a>
+                      <a href="/national/maharastra.html">Maharashtra</a>
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="national/manipur.html">Manipur</a>
+                      <a href="national/meghalaya.html">Meghalaya</a>
+                      <a href="national/mizoram.html">Mizoram</a>
+                      <a href="national/nagaland.html">Nagaland</a>
+                      <a href="national/orissa.html">Orissa</a>
+                      <a href="national/punjab.html">Punjab</a>
+                      <a href="national/rajasthan.html">Rajasthan</a>
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="national/sikkim.html">Sikkim</a>
+                      <a href="national/tamilnadu.html">Tamilnadu</a>
+                      <a href="national/telangana.html">Telangana</a>
+                      <a href="national/tripura.html">Tripura</a>
+                      <a href="national/uttarpradesh.html">Uttar-Pradesh</a>
+                      <a href="national/uttrakhand.html">Uttarakandh</a>
+                      <a href="national/westbengal.html">West-Bengal</a>
+                    </div>
+                    <div class="column">
+                      <h3>UNION TERRITORIES</h3>
+                      <a href="national/andamandnicobar.html">Andaman & Nicobar-Island</a>
+                      <a href="national/chandigarh.html">Chandigarh</a>
+                      <a href="national/dadarnagar.html">Dadra-and-nagar-haveli</a>
+                      <a href="national/damandiu.html">Daman-and-Diu</a>
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="national/delhi.html">Delhi</a>
+                      <a href="national/jammukashmir.html">Jammukashmir</a>
+                      <a href="national/lakshadweep.html">Lakshadweep</a>
+                      <a href="national/puducherry.html">Puducherry</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="dropdown">
+                <button class="dropbtn">
+                  International
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <div class="header">
+                    <h2>Quick Access</h2>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <h3> INTERNATINAL</h3>
+                      <a href="international/china.html">China</a>
+                      <a href="view/view2.html">India</a>
+                      <a href="international/japan.html">Japan</a>
+                      <a href="international/northkorea.html">North Korea</a>
+                      <a href="international/russia.html">Russia</a>
+                      
+                      
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="international/southkorea.html">South Korea</a>
+                      <a href="international/UAE.html">UAE</a>
+                      <a href="international/belgium.html">Belgium</a>
+                      <a href="international/algeria.html">Algeria</a>
+                      <a href="international/south-africa.html">South Africa</a>
+                      
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="international/australia.html">Australia</a>
+                      <a href="international/newzealand.html">Newzealand</a>
+                      <a href="international/singapore.html">Singapore</a>
+                      <a href="international/italy.html">Italy</a>
+                      <a href="international/germany.html">Germany</a>
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="international/austria.html">Austria</a>
+                      <a href="international/azerbaijan.html">Azerbaijan</a>
+                      <a href="international/belgium.html">Belgium</a>
+                      <a href="international/denmark.html">Denmark</a>
+                      <a href="international/france.html">France</a>
+                      
+                      
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="international/netherland.html">Netherland</a>
+                      <a href="international/spain.html">Spain</a>
+                      <a href="international/UK.html">UK</a>
+                      
+                      <a href="international/canada.html">Canada</a>
+                      <a href="international/USA.html">USA</a>
+                      
+                    </div><div class="column">
+                      <h3>.........................................</h3>
+                      <a href="international/americansamoa.html">Americansamoa</a>
+                      <a href="international/argentina.html">Argentina</a>
+                      <a href="international/colombia.html">Colombia</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Exclusive
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <div class="header">
+                    <h2>Quick Access</h2>
+                  </div>
+                  <div class="row">
+                    <div class="column">
+                      <h3>EXCLUSIVE</h3>
+                      <a href="Exclusive/amazon.html">Amazon</a>
+                      <a href="Exclusive/google.html">Google</a>
+                      
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="Exclusive/burger-king.html">Burger-King</a>
+                      <a href="Exclusive/john-deere.html">John-deere</a>
+                      
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="Exclusive/coco-cola.html">Coco-Cola</a>
+                      <a href="Exclusive/microsoft.html">Microsoft</a>
+                     
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="Exclusive/dell.html">Dell</a>
+                      
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="Exclusive/delta.html">Delta</a>
+                     
+                    </div>
+                    <div class="column">
+                      <h3>.........................................</h3>
+                      <a href="Exclusive/flipkart.html">Flipkart</a>
+                      
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="search">
+                <input type="text" placeholder="Country/State/Company" id="search" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16" id="search_icon">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <div class="search_bx2">
+                  <!-- <a href="#">
+                        <img src="mimg/a perfact.jpg" alt="">
+                        <div class="content2">
+                            <h6>A Perfact</h6>
+                        </div>
+                    </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </header>
+
+    <main>
+        <div class="heading1">
+            <h1>National</h1>
+        </div>
+        <!--container2-->
+        <div class="container2">
+                <div class="box1">
+                    <a href="../national/andamandnicobar.html">
+                    <div class="icon">
+                        <img src="../state-seals/Andaman-and-Nicobar-Island.jpg" alt="">
+                    </div>
+                    <div class="state">Andaman & Nicobar </div>
+                    </a>
+                </div>
+            
+            
+            <div class="box2">
+                <a href="../national/andrapradesh.html">
+                    <div class="icon">
+                        <img src="../state-seals/Andhra-Pradesh-state-emblem.jpg" alt="">
+                    </div>
+                    <div class="state">Andhra Pradesh</div>
+                </a>
+            </div>
+            
+            <div class="box3">
+                <a href="../national/arunachalpradesh.html">
+                    <div class="icon">
+                        <img src="../state-seals/Arunachal-Pradesh.jpg" alt="">
+                    </div>
+                    <div class="state">Arunachal Pradesh</div>
+                </a>
+            </div>
+            
+            <div class="box4">
+                <a href="../national/assam.html">
+                    <div class="icon">
+                        <img src="../state-seals/assam.jpg" alt="">
+                    </div>
+                    <div class="state">Assam</div>
+                </a>
+            </div>
+            
+            <div class="box5">
+                <a href="../national/bihar.html">
+                    <div class="icon">
+                        <img src="../state-seals/Bihar.jpg" alt="">
+                    </div>
+                    <div class="state">Bihar</div>
+                </a>    
+            </div>
+            
+            
+            <div class="box6">
+                <a href="../national/chandigarh.html">    
+                    <div class="icon">
+                        <img src="../state-seals/Chandigarh.jpg" alt="">
+                    </div>
+                    <div class="state">Chandigarh</div>
+                </a>
+            </div>    
+        </div>
+
+        <div class="container3">
+            <!--container3-->
+            
+            <div class="box1">
+                <a href="../national/chhattisgarh.html">
+                    <div class="icon">
+                        <img src="../state-seals/Chhattisgarh.jpg" alt="">
+                    </div>
+                    <div class="state">Chhattisgarh</div>
+                </a>
+            </div>
+            
+            <div class="box2">
+                <a href="../national/dadarnagar.html">
+                    <div class="icon">
+                        <img src="../state-seals/Dadra-and-nagar-haveli.jfif" alt="">
+                    </div>
+                    <div class="state">Dadra & Nagar Haweli</div>
+                </a>
+            </div>
+            
+            <div class="box3">
+                <a href="../national/damandiu.html">
+                    <div class="icon">
+                        <img src="../state-seals/Daman-and-Diu.jfif" alt="">
+                    </div>
+                    <div class="state">Daman & Diu</div>
+                </a>
+            </div>
+            
+            <div class="box4">
+                <a href="../national/delhi.html">
+                    <div class="icon">
+                        <img src="../state-seals/delhi.jpg" alt="">
+                    </div>
+                    <div class="state">Delhi</div>
+                </a>
+            </div>
+            
+            <div class="box5">
+                <a href="../national/goa.html">
+                    <div class="icon">
+                        <img src="../state-seals/goa.jpg" alt="">
+                    </div>
+                    <div class="state">Goa</div>
+                </a>
+            </div>
+            
+            <div class="box6">
+                <a href="../national/gujrat.html"> 
+                   <div class="icon">
+                        <img src="../state-seals/Gujarat.jpg" alt="">
+                    </div>
+                    <div class="state">Gujarat</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container4">
+            <!--container4-->
+            <div class="box1">
+                <a href="../national/haryana.html">
+                    <div class="icon">
+                        <img src="../state-seals/Haryana.jpg" alt="">
+                        </div>
+                    <div class="state">Haryana</div>
+                </a>
+            </div>
+            
+            
+            <div class="box2">
+                <a href="../national/himanchal.html">
+                    <div class="icon">
+                        <img src="../state-seals/Himachal-Pradesh.jpg" alt="">
+                    </div>
+                    <div class="state">Himachal Pradesh</div>
+                </a>
+            </div>
+            
+            <div class="box3">
+                <a href="../national/jammukashmir.html">
+                    <div class="icon">
+                        <img src="../state-seals/Jammu-Kashmir.jpg" alt="">
+                    </div>
+                    <div class="state">Jammu & Kashmir</div>
+                </a>
+            </div>
+            
+            <div class="box4">
+                <a href="../national/jharkhand.html">
+                    <div class="icon">
+                        <img src="../state-seals/Jharkhand.jpg" alt="">
+                    </div>
+                    <div class="state">Jharkhand</div>
+                </a>
+            </div>
+            
+            <div class="box5">
+                <a href="../national/karnataka.html">
+                    <div class="icon">
+                        <img src="../state-seals/Karnataka.jpg" alt="">
+                    </div>
+                    <div class="state">Karnataka</div>
+                </a>
+            </div>
+            
+            <div class="box6">
+                <a href="../national/kerela.html">
+                    <div class="icon">
+                        <img src="../state-seals/Kerala.jpg" alt="">
+                    </div>
+                    <div class="state">Kerela</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container5">
+            <!--container5-->
+            <div class="box1">
+                <a href="../national/lakshadweep.html">
+                    <div class="icon">
+                        <img src="../state-seals/Lakshadweep.jpg" alt="">
+                    </div>
+                    <div class="state">Lakshadweep</div>
+                </a>
+            </div>
+            
+            <div class="box2">
+                <a href="../national/madhyapradesh.html">
+                    <div class="icon">
+                        <img src="../state-seals/Madhya-Pradesh.jpg" alt="">
+                    </div>
+                    <div class="state">Madhya Pradesh</div>
+                </a>
+            </div>
+            
+            <div class="box3">
+                <a href="../national/maharastra.html">
+                    <div class="icon">
+                        <img src="../state-seals/Maharashtra.jpg" alt="">
+                    </div>
+                    <div class="state">Maharashtra</div>
+                </a>
+            </div>
+            
+            
+            <div class="box4">
+                <a href="../national/manipur.html">
+                    <div class="icon">
+                        <img src="../state-seals/Manipur.jpg" alt="">
+                    </div>
+                    <div class="state">Manipur</div>
+                </a>
+            </div>
+            
+            <div class="box5">
+                <a href="../national/meghalaya.html">
+                    <div class="icon">
+                        <img src="../state-seals/Meghalaya.jpg" alt="">
+                    </div>
+                    <div class="state">Meghalaya</div>
+                </a>
+            </div>
+        
+            <div class="box6">
+                <a href="../national/mizoram.html">
+                    <div class="icon">
+                        <img src="../state-seals/Mizoram.jpg" alt="">
+                    </div>
+                    <div class="state">Mizoram</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container6">
+            <!--container6-->
+            
+            <div class="box1">
+                <a href="../national/nagaland.html">
+                    <div class="icon">
+                        <img src="../state-seals/Nagaland.jpg" alt="">
+                    </div>
+                    <div class="state">Nagaland</div>
+                </a>
+            </div>
+            
+            <div class="box2">
+                <a href="../national/orissa.html">
+                    <div class="icon">
+                        <img src="../state-seals/Odisha.jpg" alt="">
+                    </div>
+                    <div class="state">Orissa</div>
+                </a>
+            </div>
+            
+            <div class="box3">
+                <a href="../national/puducherry.html">
+                    <div class="icon">
+                        <img src="../state-seals/Puducherry.jpg" alt="">
+                    </div>
+                    <div class="state">Puducherry</div>
+                </a>
+            </div>
+                
+            <div class="box4">
+                <a href="../national/punjab.html">
+                    <div class="icon">
+                        <img src="../state-seals/Punjab.jpg" alt="">
+                    </div>
+                    <div class="state">Punjab</div>
+                </a>
+            </div>
+            
+            <div class="box5">
+                <a href="../national/rajasthan.html">
+                    <div class="icon">
+                        <img src="../state-seals/Rajasthan.jpg" alt="">
+                    </div>
+                    <div class="state">Rajasthan</div>
+                </a>
+            </div>
+            
+            
+            <div class="box6">
+                <a href="../national/sikkim.html">
+                    <div class="icon">
+                        <img src="../state-seals/Sikkim.jpg" alt="">
+                    </div>
+                    <div class="state">Sikkim</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container7">
+            <!--container7-->
+            
+            <div class="box1">
+                <a href="../national/tamilnadu.html">
+                    <div class="icon">
+                        <img src="../state-seals/Tamilnadu.jpg" alt="">
+                    </div>
+                    <div class="state">Tamil Nadu</div>
+                </a>
+            </div>
+            
+            <div class="box2">
+                <a href="../national/telangana.html">
+                    <div class="icon">
+                        <img src="../state-seals/Telangana.jpg" alt="">
+                    </div>
+                    <div class="state">Telangana</div>
+                </a>
+            </div>
+            
+            <div class="box3">
+                <a href="../national/tripura.html">
+                    <div class="icon">
+                        <img src="../state-seals/Tripura.jpg" alt="">
+                    </div>
+                    <div class="state">Tripura</div>
+                </a>
+            </div>
+                
+            <div class="box4">
+                <a href="../national/uttarpradesh.html">
+                    <div class="icon">
+                        <img src="../state-seals/Uttar-Pradesh.jpg" alt="">
+                    </div>
+                    <div class="state">Uttar Pradesh</div>
+                </a>
+            </div>
+            
+            <div class="box5">
+                <a href="../national/uttrakhand.html">
+                    <div class="icon">
+                        <img src="../state-seals/Uttarakandh.jpg" alt="">
+                    </div>
+                    <div class="state">Uttarakandh</div>
+                </a>
+            </div>
+                
+            <div class="box6">
+                <a href="../national/westbengal.html">
+                    <div class="icon">
+                        <img src="../state-seals/West-Bengal.jpg" alt="">
+                    </div>
+                    <div class="state">West Bengal</div>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
