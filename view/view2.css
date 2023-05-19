@@ -1488,3 +1488,14 @@ main .container7 a{
 main a .state{
     color: black;
 }
+
+footer .reservemark{
+    height: 4vh;
+    background-color:#703564 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid rgb(242, 251, 255);
+    
+}
