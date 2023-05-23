@@ -268,29 +268,31 @@ z-index:1;
     }
   }
 /* //////////////////////////////////////////// */
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 400px) {
   
   
     header{
        width: auto;
     }
     
-    #home{
+    .navbar .list #home{
        margin: 0px;
+       font-size: 12px;
     }
     .dropdown .dropbtn{
        margin: 0px;
     }
     .list{
-       font-size: small;
+       font-size: 12px;
+     
     }
     .search{
-      right: 0.5rem;
+       right: 5px;
     }
-    .search input{
-       width: 120px;
-       height: 25;
-       font-size: 10px;
+    .search #search{
+        font-size: 8px;
+        width: 80px;
+        height: 8px;
     }
    }
 
