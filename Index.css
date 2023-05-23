@@ -268,7 +268,7 @@ z-index:1;
     }
   }
 /* //////////////////////////////////////////// */
-  @media screen and (max-width: 360px) {
+  @media screen and (min-width: 360px) {
   
   
     header{
@@ -318,9 +318,14 @@ z-index:1;
         height: 6px;
     }
     .search #search_icon{
-width: 12px;
-height: 12px;
+        width: 12px;
+        height: 12px;
     }
+   
+    .tagline span{
+        font-size: 21px;
+        
+      }
    }
 
 
