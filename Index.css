@@ -326,31 +326,157 @@ z-index:1;
         font-size: 19px;
         
       }
-      .main{
-        padding: 0;
+
+    .containers .container1 .box1{
+      width: 100px;
+      height: 100px;
+    }
+    
+    .container1 .box1 .icon img{
+        height: 40px;
+        width: 40px;
+    }
+    .containers .container1 .box2{
+        width: 100px;
+        height: 100px;
       }
-      main .container1{
-        
-        width: 100%;
-        height: 40vh;
-        display: flex;
-        margin: 0;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        background-color: grey;
-        
-    }
-    main .container1 .box1{
-        width: 14vw;
-        height:25vh ;
-        background-color:green;
-     
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
       
+      .container1 .box2 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container1 .box3{
+        width: 100px;
+        height: 100px;
+      }
+      
+      .container1 .box3 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container1 .box4{
+        width: 100px;
+        height: 100px;
+      }
+      
+      .container1 .box4 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container1 .box5{
+        width: 100px;
+        height: 100px;
+      }
+      
+      .container1 .box5 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container1 .box6{
+        width: 100px;
+        height: 100px;
+      }
+      
+      .container1 .box6 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container1 .box7{
+        width: 100px;
+        height: 100px;
+      }
+      
+      .container1 .box7 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .container1 .country{
+        font-size: 12px;
+        text-align: center;
         
-    }
+      }
+      /* ///////////////National//////////////// */
+      .containers .container2 .box1{
+        width: 100px;
+        height: 100px;
+      }
+      
+      .container2 .box1 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container2 .box2{
+          width: 100px;
+          height: 100px;
+        }
+        
+        .container2 .box2 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container2 .box3{
+          width: 100px;
+          height: 100px;
+        }
+        
+        .container2 .box3 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container2 .box4{
+          width: 100px;
+          height: 100px;
+        }
+        
+        .container2 .box4 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container2 .box5{
+          width: 100px;
+          height: 100px;
+        }
+        
+        .container2 .box5 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container2 .box6{
+          width: 100px;
+          height: 100px;
+        }
+        
+        .container2 .box6 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container2 .box7{
+          width: 100px;
+          height: 100px;
+        }
+        
+        .container2 .box7 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .container2 .state{
+          font-size: 12px;
+          text-align: center;
+          
+        }
+
+
+
+
+
+
+      /* /////////////////////////////////////////// */
+      
+      main .heading1 a #view{
+      width: 100px;
+         font-size: 8px;
+     }
+
    }
 
 
@@ -485,14 +611,15 @@ main .heading1 .filter-view{
 }
 
 
-
+.containers{
+    display: flex;
+    justify-content: center;
+}
 
 main .container1{
-    width: 80vw;
-    height: 40vh;
+    width: 80%;
     display: flex;
     align-items: center;
-    margin-left: 10vw;
     margin-top: 3vh;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -702,11 +829,9 @@ main .container2 a .state{
 
 
 main .container2{
-    width: 80vw;
-    height: 40vh;
+    width: 80%;
     display: flex;
     align-items: center;
-    margin-left: 10vw;
     margin-top: 3vh;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -935,7 +1060,6 @@ main .container3{
     height: 40vh;
     display: flex;
     align-items: center;
-    margin-left: 10vw;
     margin-top: 3vh;
     overflow-x: scroll;
     overflow-y: hidden;
