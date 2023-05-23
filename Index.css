@@ -267,6 +267,32 @@ z-index:1;
       height: auto;
     }
   }
+/* //////////////////////////////////////////// */
+  @media screen and (max-width: 480px) {
+  
+  
+    header{
+       width: auto;
+    }
+    
+    #home{
+       margin: 0px;
+    }
+    .dropdown .dropbtn{
+       margin: 0px;
+    }
+    .list{
+       font-size: small;
+    }
+    .search{
+      right: 0.5rem;
+    }
+    .search input{
+       width: 120px;
+       height: 25;
+       font-size: 10px;
+    }
+   }
 
 
 /*****************************************************/
