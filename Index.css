@@ -471,6 +471,82 @@ z-index:1;
           text-align: center;
           
         }
+        
+        /* ///////////////Exclusive//////////////// */
+      .containers .container3 .box1{
+        width: 100px;
+        height: 120px;
+      }
+     
+      
+      .container3 .box1 .icon img{
+          height: 40px;
+          width: 40px;
+      }
+      .containers .container3 .box2{
+        width: 100px;
+        height: 120px;
+        
+        }
+        
+        .container3 .box2 .icon img{
+            height: 40px;
+            width: 40px;
+            
+        }
+        .containers .container3 .box3{
+            width: 100px;
+            height: 120px;
+            
+        }
+        
+        .containers.container3 .box3 .icon img{
+            height: 40px;
+            width: 40px;
+            margin-top: 0;
+        }
+        .containers .container3 .box4{
+            width: 100px;
+            height: 120px;
+        }
+        
+        .container3 .box4 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container3 .box5{
+            width: 100px;
+            height: 120px;
+        }
+        
+        .container3 .box5 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container3 .box6{
+            width: 100px;
+            height: 120px;
+        }
+        
+        .container3 .box6 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .containers .container3 .box7{
+            width: 100px;
+            height: 120px;
+        }
+        
+        .container3 .box7 .icon img{
+            height: 40px;
+            width: 40px;
+        }
+        .container3 .state{
+          font-size: 12px;
+          text-align: center;
+          
+        }
+        
 
 
 

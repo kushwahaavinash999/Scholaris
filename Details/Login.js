@@ -8,6 +8,7 @@ var btn1 = document.getElementById("signinBtn");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
