@@ -119,3 +119,44 @@ footer .reservemark{
     border-top: 0.5px solid rgb(242, 251, 255);
     
 }
+/* //////////////////////////////////////////// */
+@media screen and (max-width: 400px) {
+  
+  
+    header{
+       width: auto;
+    }
+    header .img{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-evenly;
+        align-items: center;
+        height: 16vh;
+    }
+    header .img .one{
+        margin: 0;
+        left: 0;
+        width: 3rem;
+        height: 3rem;
+        
+     }
+    header .img .two{
+        margin: 0;
+       width: 10rem;
+       height: 5rem;
+    }
+    
+    .navbar #home{
+        padding: 10px 12px;
+       margin: 0px;
+       font-size: 12px;
+    }
+    .dropdown .dropbtn{
+        padding: 6px 8px;
+       margin: 0px;
+    }
+    .list{
+      
+       font-size: 12px;
+     
+    }
